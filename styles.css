@@ -1,43 +1,43 @@
+body {
+  text-align: center;
+  color: #52ab98;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: lighter;
+}
 header{
   width: 100%;
-  padding: 0 7%;
   display: table;
-  margin: 0;
   max-width: none;
   background-color: #2b6777;
   height: 100%;
+  font-size: 300%;
+  font-weight: lighter;
+  margin-bottom: 10px;
 }
-/* * {
-  box-sizing: border-box;
-   
-} */
-aside{
-  height: 100%;
+li{
+  list-style-type:none;
+  margin: 10px;
 }
-body{
-  background-color:#52ab98;
-  font-style:ubuntu,sans-serif;
+footer{
+text-align: center;
+padding: 3px;
+background-color: DarkSalmon;
+color: white;
+background-attachment: fixed;
+background-size: cover;
+background-image:url(glass3.jpg);
+height:60%;
 }
-ul {
-  position:fixed;
-  top :0; 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:#c8d8e4 ;
+.Skill{
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:url(glass1.jpg);
+  height:60%;
+  margin: -20;
 }
-li {
-  float: right;
-}
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  color:#c8d8e4 ;
-  background-color: #2b6777 ;
+.study{
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:url(glass2.jpg);
+  height:60%;
 }
