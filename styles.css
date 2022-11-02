@@ -1,8 +1,9 @@
 body {
   text-align: center;
-  color: #52ab98;
+  color: #ffffff;
   font-family: 'Cinzel Decorative', cursive;
   font-weight: lighter;
+  
 }
 header{
   width: 100%;
@@ -21,23 +22,39 @@ li{
 footer{
 text-align: center;
 padding: 3px;
-background-color: DarkSalmon;
+background-color: #52ab98;
 color: white;
-background-attachment: fixed;
-background-size: cover;
-background-image:url(glass3.jpg);
-height:60%;
 }
 .Skill{
   background-attachment: fixed;
   background-size: cover;
   background-image:url(glass1.jpg);
-  height:60%;
+  height:20%;
   margin: -20;
 }
 .study{
   background-attachment: fixed;
   background-size: cover;
   background-image:url(glass2.jpg);
-  height:60%;
+  height:50%;
+  margin: -20px;
+  color:#0f322b;
 }
+
+th a{
+  text-decoration:none;
+  outline: none;
+  margin: 0 2px
+}
+th a:visited{
+  color:black;
+}
+th a:hover{
+  outline: none;
+  background:#6bc6b2;
+  border-radius:10px;
+  margin: 0 2px
+}
+a:focus{
+  border-bottom: 1px solid;
+  }
