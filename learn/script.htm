@@ -8,6 +8,7 @@
 <body>
 
     <p id="demo">JavaScript can change HTML content.</p>
+    <p id="wind"></p>
 
 
     <button type="button" onclick='document.getElementById("demo").style.fontSize = "50px"'>Large!</button>
@@ -16,17 +17,36 @@
     <br>
     <p id="dem" style="display:none;">This was hidden</p>
     <button type="button" onclick='document.getElementById("dem").style.display="block"'>Show!</button>
-    <button type="button" onclick='document.getElementById("dem").style.display="block"'>Hide!</button>
+    <button type="button" onclick='document.getElementById("dem").style.display="none"'>Hide!</button>
     <br>
     <br>
     <h1> this is amazing sorta</h1>
     <p> not so much</p>
     <script>
-        let x, y, z;
+        let x, y;
         x = 5;
         y = 6;
-        z = x + y;
-        alert(z);
+        z = x + y; {
+            var z = 10 + "Ten";
+            alert(z);
+        }
+        Zoom = "Heaven";
+        var Zoom;
+
+        let arr = [1, 2, 3, 4];
+        let flen = arr.length;
+        arr.length
+        let text = "<ul>";
+        for (let i = 0; i < flen; i++) {
+            text += "<li>" + arr[i] + "</li>";
+        }
+        text += "</ul>";
+        document.getElementById("wind").innerHTML = text;
+
+
+        function wind() {
+            alert(Zoom);
+        }
     </script>
 
 
